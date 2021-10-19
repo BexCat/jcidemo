@@ -9,17 +9,17 @@ class CalculatorTest {
 	@Test
 	void testAdd() {
 		Calculator c = new Calculator();
-		assertEquals(c.add(10,1), 11);
+		assertEquals(c.add(10,1), 12);
 	}
 	
 	@Test
 	void testSub() {
 		Calculator c = new Calculator();
-		assertEquals(c.sub(10,1), 9);
+		assertEquals(c.sub(10,1), 80);
 	}
 	
 	void testMul() {
 		Calculator c = new Calculator();
-		assertEquals(c.mul(10,2), 20);
+		assertEquals(c.mul(10,2), 30);
 	}
 }
